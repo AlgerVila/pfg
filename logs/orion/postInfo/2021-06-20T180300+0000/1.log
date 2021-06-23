@@ -1,0 +1,23 @@
+[2021-06-20 18:06:01,002] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: orion.postInfo 2021-06-20T18:03:00+00:00 [queued]>
+[2021-06-20 18:06:01,024] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: orion.postInfo 2021-06-20T18:03:00+00:00 [queued]>
+[2021-06-20 18:06:01,025] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-06-20 18:06:01,026] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-06-20 18:06:01,028] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-06-20 18:06:01,036] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): postInfo> on 2021-06-20T18:03:00+00:00
+[2021-06-20 18:06:01,044] {standard_task_runner.py:52} INFO - Started process 24560 to run task
+[2021-06-20 18:06:01,047] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'orion', 'postInfo', '2021-06-20T18:03:00+00:00', '--job-id', '218', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/orion.py', '--cfg-path', '/tmp/tmp8109hnt0', '--error-file', '/tmp/tmpgo61967e']
+[2021-06-20 18:06:01,048] {standard_task_runner.py:77} INFO - Job 218: Subtask postInfo
+[2021-06-20 18:06:01,087] {logging_mixin.py:104} INFO - Running <TaskInstance: orion.postInfo 2021-06-20T18:03:00+00:00 [running]> on host 438558517cf9
+[2021-06-20 18:06:01,139] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=orion
+AIRFLOW_CTX_TASK_ID=postInfo
+AIRFLOW_CTX_EXECUTION_DATE=2021-06-20T18:03:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-06-20T18:03:00+00:00
+[2021-06-20 18:06:01,147] {logging_mixin.py:104} INFO - {'id': 'Street1', 'type': 'Street', 'pressure': {'type': 'Float', 'value': '914', 'metadata': {}}, 'temperature': {'type': 'Float', 'value': '24.7', 'metadata': {}}, 'time': {'type': 'String', 'value': '2021-06-20 20:04:58', 'metadata': {}}}
+[2021-06-20 18:06:01,224] {python.py:151} INFO - Done. Returned value was: 200
+[2021-06-20 18:06:01,248] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=orion, task_id=postInfo, execution_date=20210620T180300, start_date=20210620T180601, end_date=20210620T180601
+[2021-06-20 18:06:01,274] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-06-20 18:06:01,299] {local_task_job.py:151} INFO - Task exited with return code 0

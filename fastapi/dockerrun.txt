@@ -1,0 +1,20 @@
+docker run -p 5005:5005 `
+-e CLIENT_SECRET="orR~oe~BdF.2GU.~Fo9dqUC6Rfl7a_3-Nk" `
+-e CLIENT_ID="c1c2d1f5-7de8-4708-98ff-342b2af20ff6" `
+-e TENANT_ID="simetriagrupo.onmicrosoft.com" `
+-e SCOPE="https://graph.microsoft.com/.default" `
+-e RRHH_PRE="simetriagrupo.sharepoint.com,9bb44149-25e0-49bb-bb2a-94b972eff9ca,28eb69cb-1fb4-44e2-92e8-8dee08c750e3" `
+-e LIBRARY_PRE="77b64f5c-e02d-4d99-8bc7-0bf80f92c914" `
+-e LIBRARY_ID="b!SUG0m-Alu0m7KpS5cu_5ystp6yi0H-JEkuiN7gjHUONcT7Z3LeCZTYvHC_gPkskU" `
+becsa
+
+
+docker run -p 5001:5005 \
+-e CLIENT_SECRET="orR~oe~BdF.2GU.~Fo9dqUC6Rfl7a_3-Nk" \
+-e CLIENT_ID="c1c2d1f5-7de8-4708-98ff-342b2af20ff6" \
+-e TENANT_ID="simetriagrupo.onmicrosoft.com" \
+-e SCOPE="https://graph.microsoft.com/.default" \
+-e RRHH_PRE="simetriagrupo.sharepoint.com,9bb44149-25e0-49bb-bb2a-94b972eff9ca,28eb69cb-1fb4-44e2-92e8-8dee08c750e3" \
+-e LIBRARY_PRE="77b64f5c-e02d-4d99-8bc7-0bf80f92c914" \
+-e LIBRARY_ID="b!SUG0m-Alu0m7KpS5cu_5ystp6yi0H-JEkuiN7gjHUONcT7Z3LeCZTYvHC_gPkskU" \
+becsa
